@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      
+}
+body{
+    /* background-color: #ead7d7bf; */
+
+}
+.nav-item a{
+    text-decoration: none;
+    color:  black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+} 
+
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+     
+}
+.search{
+   height: 45px;
+   outline: none;
+    border: 2px solid rgb(20,219,20);
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.search:focus{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid rgb(20,219,20);
+    border-right: none;
+
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20,219,20);
+    color: white;
+    border-radius: 0px 20px 0px 20px;
+    transition: all 0.4s;
+}
+.btn1:hover{
+    background-color: rgb(4, 118, 4);
+}
+.bi-bag-plus{
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  padding-top: 5px;
+  transition: all 0.4s;
+}
+.bi-bag-plus:hover{
+    color: rgb(20,219,20);
+}
+.navbar-toggler{
+    font-size: 20px;
+    color: black;
+
+}
+.navbar-toggler:hover{
+    outline: none;
+    box-shadow: none;
+    color:  rgb(20,219,20);
+    border: 1px solid rgb(20,219,20);
+}
+
+.main1{
+    /* background-size: cover;
+    margin-top: 5px; 
+    height: 100vh;
+    width: 100%;  */
+   /* background-color: #ead7d7bf; */
+} 
+
+.main1 h1{
+    font-size: 3rem;
+
+}
+.main1 p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.main1 p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.img1{
+    height:auto;
+    max-width: 100%;
+    
+}
+.img2{
+    height: 100%;
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+}
+.mbtn1{
+    height: 50px;
+    width: 35%;
+    outline: none;
+    border: none;
+     color: white;
+    background: rgb(20,219,20);
+    border-radius: 50px;
+    transition: all 0.4s;
+
+}
+.mbtn1:hover{
+    background-color: rgb(29, 116, 29);
+    color: white;
+}
+.mbtn2{
+    border: 1px solid rgb(20,219,20);
+    border-radius: 50px;
+    height: 50px;
+    width: 35%;
+    outline: none;
+    background-color: transparent;
+    color: 1px solid  rgb(20,219,20);
+    transition: all 0.4s;
+    
+}
+.mbtn2:hover{
+   background-color: rgb(20,219,20);
+   border: none; 
+    color: white;
+}
+.line{
+    height: 6px;
+    width: 60%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+
+.about1{
+    /* background-size: cover;
+    height: 90vh;
+    width: 100%; */
+    /* background-color: #b7adad; */
+}
+.about1 h1{
+    font-size: 3rem;
+
+}
+.about1 p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    /* padding-top: 100px; */
+}
+.about1 p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+
+.welcome{
+    background: rgb(20, 219, 20);
+    border-radius: 10px;
+   
+}
+.whiteline{
+    height: 6px;
+    width: 20%;
+    background: #fff;
+    display: inline-block;
+}
+/* 
+@media only screen and (max-width: 1000px) {
+    body { 
+          text-align: center;
+
+        .img1,.img2 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: 100%px;
+            width: 100%;
+            text-align: center;
+          }
+    
+
+    }
+  } */
+ 
+  .welcome-card-1, .welcome-card-2, .welcome-card-3{
+    width: 300px;
+    height: 170px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-radius: 0 70px 0  70px;
+    cursor: pointer;
+    padding: 0 0 0 0;
+
+  }
+
+.product h1{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 80px;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.productline{
+        height: 6px;
+        width: 30%;
+        background: rgb(20, 219, 20);
+        display: inline-block;
+    }
+
+
+
+.star{
+    text-align: end;
+    color: orange;
+
+}
+.product .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.product .card-body{
+    border: 1px dashed rgb(190, 185, 185);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+
+}
+.per{
+    color: rgb(168,162,162);
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: rgb(20, 219,20);
+    border-radius: 50px;
+    transition: all 0.4s;
+    display: block;
+    margin: 0 auto;
+}
+.btnc:hover{
+    border: 1px solid  rgb(20, 219,20);
+    color:  rgb(20, 219,20);
+    background-color: #fff;
+}
+.welcomebtn{
+    height: 50px;
+    width: 20%;
+    outline: none;
+    border: 1px solid  rgb(20,219,20);
+     color: rgb(20,219,20);
+    /* background: rgb(20,219,20); */
+    border-radius: 50px;
+    transition: all 0.4s;
+    margin-bottom: 10px;
+
+}
+.welcomebtn:hover{
+    background-color: rgb(29, 116, 29);
+    color: white;
+}
+
+.discount{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(20,219,20);
+    margin-top: 10px;
+}
+.disbtn{
+    color: white;
+    background-color:  rgb(20,219,20);;
+    border-radius: 40px;
+    width: 50%;
+    height: 40px;
+}
+.disbtn:hover{
+    color: black;
+    /* border: 1px solid rgb(20,219,20); */
+    /* background-color:   white; */
+    /* border-radius: 40px;
+    width: 50%;
+    height: 40px; */
+}
+
+
+
+.store-card-1, .store-card-2, .store-card-3, .store-card-4{
+    width: 200px;
+    height: 120px;
+    background-color: #f5f2f2;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+   .store-card-4:hover{
+    background-color:  rgb(12, 206, 60);
+    color: white;
+    transition: all 0.4s;
+  }
+  .store-card-3:hover{
+    background-color:  rgb(20,219,20);
+    color: white;
+    transition: all 0.4s;
+  }
+  .store-card-2:hover{
+    background-color:  rgb(20,219,20);
+    color: white;
+    transition: all 0.4s;
+  }
+  .store-card-1:hover{
+    outline: none;
+    border: none;
+    background-color:  rgb(20,219,20);
+    color: white;
+    transition: all 0.4s;
+  }
+
+  .contact{
+    background: url(./image/imgs/cont.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .contact h1{
+     font-size: 2rem;
+     font-weight: bold;
+     color: #fff;
+
+  }
+  .contact p{
+    color: #fff;
+  }
+
+  .circle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding:;
+    font-size: 18px;
+    margin: 5px 0 0 0;
+  }
+  .circle:hover{
+    border: 2px solid black;
+  }
+
+  .btncontactinfo:hover{
+       background:  rgb(20,219,20);
+       color: white;
+  }
